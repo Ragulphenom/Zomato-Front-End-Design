@@ -1,0 +1,40 @@
+.wrapperDiv {
+	display: flex;
+	/* justify-content: space-around; */
+	align-items: center;
+	margin-left: 9vw;
+	margin-bottom: 10vh;
+	margin-top: 5vh;
+}
+
+.cardDiv {
+	height: 35vh;
+	width: 25vw;
+	overflow: hidden;
+	border: 2px solid whitesmoke;
+	border-radius: 10px;
+	margin-right: 1.5rem;
+	border-bottom: 1px solid rgb(226, 212, 212);
+}
+.subCard {
+	/* height: 30vh; */
+}
+.subCard img {
+	height: 23vh;
+	width: 25vw;
+	object-fit: cover;
+	margin-bottom: 2vh;
+}
+.captions {
+	border-right: 1px solid rgb(226, 212, 212);
+	border-bottom: 1px solid rgb(226, 212, 212);
+	border-left: 1px solid rgb(226, 212, 212);
+}
+
+.captions h6 {
+	margin-bottom: 2vh;
+}
+.captions h5,
+h6 {
+	margin-left: 2vw;
+}

@@ -1,0 +1,138 @@
+.superDiv {
+	background: #f8f8f8;
+	margin-top: 0;
+}
+
+.lastContainer {
+	width: 80vw;
+	margin-left: 8vw;
+	margin-top: 4vh;
+}
+
+.bold {
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.mapped {
+	line-height: 12px;
+}
+
+.icons i {
+	border-radius: 50%;
+	padding: 3px 5px;
+	margin-left: 3px;
+	margin-right: 3px;
+	background: black;
+	color: white;
+}
+
+.store img {
+	height: 6vh;
+	width: 11.8vw;
+}
+
+.appStore,
+.googleStore {
+	margin-top: 3vh;
+}
+
+.foot {
+	padding-top: 5vh;
+}
+
+.foot img {
+	height: 6vh;
+	margin-left: 1px;
+}
+
+.btn-1 {
+	margin-left: 45vw;
+	margin-right: 0;
+	height: 6vh;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 8vw;
+}
+
+.btn-2 {
+	margin-left: none;
+}
+
+/* Responsive design for screen size 600px */
+@media only screen and (max-width: 600px) {
+	.lastContainer {
+		width: 90vw;
+		margin-left: 5vw;
+	}
+	.mapped {
+		font-size: 0.8rem;
+	}
+	.icons i {
+		padding: 2px 3px;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.store img {
+		height: 5vh;
+		width: 9.5vw;
+	}
+	.appStore,
+	.googleStore {
+		margin-top: 2vh;
+	}
+	.foot {
+		padding-top: 4vh;
+	}
+	.foot img {
+		height: 5vh;
+		margin-left: 0.5px;
+	}
+	.btn-1 {
+		margin-left: 30vw;
+		margin-right: 0;
+		height: 5vh;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		width: 6vw;
+	}
+}
+
+/* Responsive design for screen size 900px */
+@media only screen and (max-width: 900px) {
+	.lastContainer {
+		width: 85vw;
+		margin-left: 7vw;
+	}
+	.mapped {
+		font-size: 0.9rem;
+	}
+	.icons i {
+		padding: 2.5px 4px;
+		margin-left: 2.5px;
+		margin-right: 2.5px;
+	}
+	.store img {
+		height: 5.5vh;
+		width: 10.5vw;
+	}
+	.appStore,
+	.googleStore {
+		margin-top: 2.5vh;
+	}
+	.foot {
+		padding-top: 4.5vh;
+	}
+	.foot img {
+		height: 5.5vh;
+		margin-left: 0.75px;
+	}
+	.btn-1 {
+		margin-left: 35vw;
+		margin-right: 0;
+		height: 5.5vh;
+		padding-top: 1.5px;
+		padding-bottom: 1.5px;
+		width: 7vw;
+	}
+}

@@ -1,0 +1,159 @@
+.mainDiv {
+	height: 70vh;
+	background: url('../assets/images/background1.jpg');
+	margin-bottom: 6vh;
+}
+
+.navBar {
+	color: white;
+}
+.getTheApp p {
+	font-size: 15px;
+	font-weight: bold;
+	/* color: white; */
+	margin-top: 1rem;
+}
+.typicalNavBar {
+	margin-left: 30vw;
+}
+.typicalNavBar p {
+	margin: 1rem;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8vh;
+}
+.logo img {
+	height: 9vh;
+	width: 20vw;
+	margin: auto;
+	transform: rotate(-0.5deg);
+}
+
+.caption {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6vh;
+}
+
+.caption h3 {
+	font-size: 2.5rem;
+}
+
+/* input Clone */
+.inputClone {
+	margin-top: 3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cloneSection {
+	display: flex;
+	align-items: center;
+	border: 1px solid transparent;
+	width: 56.9vw;
+	background: white;
+	border-radius: 10px;
+	height: 6.9vh;
+}
+.cloneSection span {
+	background: white;
+}
+.pipe {
+	font-weight: bold;
+	color: grey;
+	font-size: larger;
+	margin-right: 1vw;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
+.location {
+	margin-right: 10vw;
+	margin-left: 1vw;
+}
+.location i {
+	color: palevioletred;
+}
+
+.iconDown {
+	margin-right: 1vw;
+}
+.search {
+	margin-right: 1vw;
+}
+.search i {
+	font-weight: 800;
+}
+/* responsive code/........ */
+
+/* Existing CSS remains the same */
+
+/* Media queries for mobile screen size (nearly 600px) */
+@media only screen and (max-width: 600px) {
+	.mainDiv {
+		height: 50vh; /* Adjusted height for mobile screen size */
+	}
+	.navBar {
+		flex-direction: column; /* Changed layout to vertical for mobile screen size */
+	}
+	.getTheApp p {
+		font-size: 12px; /* Reduced font size for mobile screen size */
+	}
+	.typicalNavBar {
+		margin-left: 0; /* Removed margin for mobile screen size */
+	}
+	.typicalNavBar p {
+		margin: 0.5rem; /* Reduced margin for mobile screen size */
+	}
+	.logo img {
+		height: 6vh; /* Reduced image height for mobile screen size */
+		width: 15vw; /* Reduced image width for mobile screen size */
+	}
+	.caption h3 {
+		font-size: 1.5rem; /* Reduced font size for mobile screen size */
+	}
+	.inputClone {
+		margin-top: 2vh; /* Reduced margin for mobile screen size */
+	}
+	.cloneSection {
+		width: 80vw; /* Adjusted width for mobile screen size */
+		height: 5vh; /* Reduced height for mobile screen size */
+	}
+}
+
+/* Media queries for tablet screen size (nearly 900-950px) */
+@media only screen and (min-width: 900px) and (max-width: 950px) {
+	.mainDiv {
+		height: 60vh; /* Adjusted height for tablet screen size */
+	}
+	.navBar {
+		flex-direction: row; /* Changed layout to horizontal for tablet screen size */
+	}
+	.getTheApp p {
+		font-size: 18px; /* Increased font size for tablet screen size */
+	}
+	.typicalNavBar {
+		margin-left: 15vw; /* Added margin for tablet screen size */
+	}
+	.typicalNavBar p {
+		margin: 1rem; /* Increased margin for tablet screen size */
+	}
+	.logo img {
+		height: 8vh; /* Increased image height for tablet screen size */
+		width: 25vw; /* Increased image width for tablet screen size */
+	}
+	.caption h3 {
+		font-size: 2.2rem; /* Increased font size for tablet screen size */
+	}
+	.inputClone {
+		margin-top: 4vh; /* Increased margin for tablet screen size */
+	}
+	.cloneSection {
+		width: 70vw; /* Adjusted width for tablet screen size */
+		height: 7vh; /* Increased height for tablet screen size */
+	}
+}

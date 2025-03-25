@@ -1,0 +1,62 @@
+.collection-Images img {
+	height: 45vh;
+	width: 20vw;
+}
+
+.innerDiv {
+	height: 45vh;
+	width: 20vw;
+	color: white;
+}
+
+.innerDiv1 {
+	background: url('../assets/images/restaurantChair.jpg');
+	background-size: cover;
+}
+
+.innerDiv2 {
+	background: url('../assets/images/kingSizeDining.jpg');
+	background-size: cover;
+}
+
+.innerDiv3 {
+	background: url('../assets/images/hotelOnPhone.jpg');
+	background-size: cover;
+}
+
+.innerDiv4 {
+	background: url('../assets//images/foodOnLeaf.jpg');
+	background-size: cover;
+}
+
+.collection-Images p {
+	margin-top: 36vh;
+}
+
+@media only screen and (max-width: 600px) {
+	.collection-Images img {
+		height: 30vh;
+		width: 40vw;
+	}
+	.innerDiv {
+		height: 30vh;
+		width: 40vw;
+	}
+	.innerDiv p {
+		margin-top: 24vh;
+	}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 950px) {
+	.collection-Images img {
+		height: 50vh;
+		width: 30vw;
+	}
+	.innerDiv {
+		height: 50vh;
+		width: 30vw;
+	}
+	.innerDiv p {
+		margin-top: 40vh;
+	}
+}

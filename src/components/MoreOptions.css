@@ -1,0 +1,65 @@
+.optionsList {
+	display: flex;
+	justify-content: space-between;
+	width: 80vw;
+	height: 10vh;
+	margin-left: 8.9vw;
+	font-size: larger;
+	border: 1px solid #e8e8e8;
+	margin-top: 3vh;
+	margin-bottom: 2vh;
+	padding-right: 1vw;
+	border-radius: 8px;
+	background: white;
+}
+
+h1 {
+	padding-top: 10vh;
+	margin-bottom: 6vh;
+	margin-top: 0;
+}
+
+.para {
+	margin-top: 2.3vh;
+	margin-left: 2vw;
+	font-weight: 450;
+}
+
+.iconSpan {
+	margin-right: 2vw;
+	margin-top: 0.4vh;
+	transform: rotate(90deg);
+}
+
+.moreOptionCls {
+	background: #fcfcfc;
+	padding-bottom: 4vh;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 768px) {
+	.optionsList {
+		width: 90vw;
+		margin-left: 4vw;
+	}
+	.para {
+		font-size: 1rem;
+	}
+	.iconSpan {
+		margin-right: 1vw;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.optionsList {
+		width: 95vw;
+		margin-left: 2vw;
+	}
+	.para {
+		font-size: 0.8rem;
+	}
+	.iconSpan {
+		margin-right: 0.5vw;
+	}
+}
