@@ -55,7 +55,7 @@ Follow the steps below to set up and run the project locally:
    Begin by cloning the project repository, navigating to the project directory, and installing all necessary dependencies.
 
    ```bash
-   git clone https://github.com/Jeromed28/Zomato-Front-End-Design.git
+   git clone https://github.com/Ragulphenom/Zomato-Front-End-Design.git
    cd ./Zomato-Front-End-Design
    npm install
    ```
